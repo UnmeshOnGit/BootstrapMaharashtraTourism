@@ -1,0 +1,646 @@
+<!-- add location, accommodation, distance, nearest hotel to all asthvinayaka info -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Asthavinayaka</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="media_quiries.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-sm-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Maharashtra Darshan</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Write For Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact form.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="6"
+          aria-label="Slide 7"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="7"
+          aria-label="Slide 8"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/ballaleshwar.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/chintamani.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/girijatmak.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/mahaganapati.jpg"
+            width="380px"
+            height="426px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/moreshwar.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/varadvinayaka.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/vighneshwar.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/siddhivinayaka.jpg"
+            height="400px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container my-4 ">
+      <div>
+        <p class="text">Lord Ganesha, the god of wisdom, is one of the most popular gods in the Hindu tradition. Ganesha is a non-sectarian deity, and Hindus of all denominations invoke him at the beginning of prayers, Important undertakings, and religious ceremonies, Devotion to Ganesha in widely diffused and extends to Jains, Buddhists, and even beyond India.</p>
+
+         <p class="text"> Ganesha has many other titles and epithets, including Ganapati and Vigneshrara. The names Vighnaha and Vighneshara refer to his primary function in Hindu mythology as the master and remer of obstacles, Lund Ganesha is lored and worshipped on a massive scale throughout India, especially in Maharashtra, which has a very special place for the Lord in its heart.</p><br>
+          
+          <h2>Ashtavinayaka - A Journey of Faith</h2>
+          
+         <p class="text"> Vinayaka is a common name for Ganesha that appears in the Paranas and Buddhist Tantras. This name is reflected in the naming of the sight famous Ganesha temples in Maharashtra known as the Ashtavinayakas Ashtavinayaka liturally means 'eight Ganeshas" in Sanskar </p>
+          
+         <p class="text">The Ashtarinayaka Yatra refers to a pilgrimage to the eight temples that house the eight distinct idols of Ganesha, in a pre-ascertained sequence. The form of each idul and its trunk are or distinct from each other Lord Ganesha's eight incarnations are an example of his generosity and magnificence, and the legend and history behind each of the temples are as distinct as the idol themselves. Their cultural and traditional importance can be seen within their architecture.</p> 
+          
+         <p class="text"> Ancient mythological stories relate how these idols got their names and came into existence. Sin out of these eight temples are in Pune and the east are in Raigud District. The Yatra believed to provide devotees with peace and contentment. Ardent denotees of Land Ganesha make the Achtorinayaka journey at least once in their fatisur verlasting bliss.</p>
+      </div><br><br>
+      
+      <div class="box-1">
+        <h3>1.Shri Ballaleshwar</h3>
+        <p class="city">Pali,Raigad</p>
+        <p class="text">
+          Ganesha is believed to have saved this boy-devotee, Ballala, who was
+          beaten by local villagers and his father for his single-minded
+          devotion to him. this is the only Ashtavinayak idol to be named after
+          a Ganesha devotee. The prasad offered to this Ganesha is Besan Laadu
+          instead of Modak, a sweet normally offered to other Ganapatis.
+        </p>
+        <p class="text">
+          This temple is situated inthe villade of Pali, 111 kms from Pune.
+          Among the Ashtavinayaka, Ballal Vinayak at Pali is associated with the
+          legend where Ganapati is said to have come to the aid of a young
+          lad(Ballal), who was one of his fervent devotees. The image of Vinayak
+          sits on a stone throne facing east, its trunk is left turned. Diamonds
+          are embedded in the eyes and navel. The background, made of silver,
+          features Riddho and Siddhi waving chamaras. The idol in this temple is
+          the only avatar in which Lord Ganesha is seen wearing traditional
+          Indian clothes. This is because he appeared to Ballal in the form of a
+          Brahmin. Shri Ballaleshwar is the only incarnation of Lord Ganesha
+          which is known by a devotee's name.
+        </p>
+        <p class="text">
+          The original wooden temple was renovated and a new stone temple was
+          built in 1760 AD. Its shape is in the form of the letter 'shri', and
+          it faces east. During Dakshinayan at sunrise, the sun's rays fall
+          exactly on the Vinayak idol, resulting in a truly glorious sight.
+        </p><br>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/1/1.jpg" width="400px" alt="">
+          <img src="img/1/2.jpg" height="340px" alt="">
+          <img src="img/1/3.jpg" height="340px"  alt="">
+        </div>
+        <a href="https://goo.gl/maps/kF32qDtddzvR5chr5" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+      </div><br>
+      <div class="travel-info">
+        <p> <b> Nearest Towns:</b> Khopoli and Khandala <br>
+          <b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Khandala <br>
+          <b>Local Transport:</b> Buses, Car hire <br>
+          <b>Sighteseeing:</b> Khopoli, Memorial of Dr. Babasaheb Ambedkar, Bhavdar Tale meaning "tasty water lake",ancient temple of Lord Shiva and the beach at Harihareshwar. Raigad Fort, Sarasgad, Sughagad, forts, Old Pali Fort, Ballaleshwar Ganesha Temple, Pali, Walwan Dam
+        </p>
+      </div>
+      <hr /><br>
+      <div class="box-2">
+        <h3>2.Shri Varadvinayaka</h3>
+        <p class="city">Mahad,Raigad</p>
+        <p class="text">
+          Ganesha is said to reside here in the form of Varada Vinayaka, the
+          giver of bounty and success. This is the only temple where devotees
+          are allowed to personally pay their hamage and respects to the idol.
+          They are allowed in the immediate vicinity of this idol to perform
+          their prayers.
+        </p>
+        <p class="text">
+          Mahad Village is situated in Khalapur, Raigad District, 63 kms from
+          Mumbai. It is believed that even chanting the name of Varadvinayaka in
+          this place fulfills all one's wishes. Special prayers are offered to
+          Varadvinayaka during the Chaturthi in the period of Shukla Paksh. A
+          lamp named Nandadeep is lit here, which continuously brightens up the
+          place.
+        </p>
+        <p class="text">
+          This idol of Lord Ganesha was found in a lake outside the sanctum of
+          the temple. Since it was in a bad condition, the temple trustees
+          immersed the idol and consecrated a new one inside the sanctum. The
+          original idol of Varadvinayaka can be seen outside the sanctum. Both
+          idols are located in two corners-the idol on the left is smeared in
+          vermilion with its trunk turned left, and the idol on the right is
+          made of white marble with its trunk turned to the right. The sanctum
+          is made of stone and is surrounded by beautiful stone elephant
+          carvings which house the idol. Two stone idols of Riddhi and Siddhi
+          can also be seen in the sanctum.
+        </p><br>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/2/1.jpg" width="500px" height="300px" alt="">
+          <img src="img/2/2.jpg" height="300px" alt="">
+          <img src="img/2/3.jpg" width="400px"alt="">
+        </div>
+        <a href="https://goo.gl/maps/cSMJmB1NhoFFjYDB7" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="travel-info">
+          <p> <b> Nearest Towns:</b> Khopoli and Khandala <br>
+            <b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Khandala <br>
+            <b>Local Transport:</b> Buses, Car hire <br>
+            <b>Sighteseeing:</b> Khopoli, Memorial of Dr. Babasaheb Ambedkar, Bhavdar Tale meaning "tasty water lake",ancient temple of Lord Shiva and the beach at Harihareshwar. Raigad Fort, Sarasgad, Sughagad, forts, Old Pali Fort, Ballaleshwar Ganesha Temple, Pali, Walwan Dam
+          </p>
+        </div>
+      </div>
+      <hr /><br>
+      <div class="box-3">
+        <h3>3.Shri Chintamani</h3>
+        <p class="city">Theur,Pune</p>
+        <p class="text">
+          Ganesha is belirved to have got back the precious Chinatamani jewel
+          from the greedy Guma for sage Kapila at this spot. However, after
+          bringing back the jewel, sage Kapila put ut in Lord Ganesha's neck
+          anming him as the Chintamani Vinayak.
+        </p>
+        <p class="text">
+          Theur is located 25 kms from Pune in Haveli Talika, at the confluence
+          of the Mula, Mutha and Bhima Rivers. Chintamani means that Lord
+          Ganesha provides peace and frees a person from all warries and
+          tensions. The idol faces east and has a trunk angled to the left. The
+          eyes of the Lord are studded with carbuncles and diamonds.
+        </p>
+        <p class="text">
+          The main archway of the temple faces north. Madhavrao Peshwa had built
+          a concrete road from the main gate up to the Mula-Mutha River. The
+          temple hall is made of wood and it has a small fountain made from
+          black stone inside it. The large courtyard is paved and a huge bell is
+          the main attraction here. There is a small temple of Lord Shiva in the
+          courtyard, which was built by Dharanidhar Maharaj.
+        </p>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/3/1.jpg" height="250px" alt="">
+          <img src="img/3/2.jpg" width="400px" height="250px" alt="">
+          <img src="img/3/3.jpg" height="250px" alt="">
+        </div>
+        <a href="https://goo.gl/maps/uhLk1Z3cJDkoxLaW8" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="tranvel-info">
+          <p>
+            <b>Nearest Towns:</b>Pune (26 kms) <br>
+              <b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune <br>
+              <b>Local Transport:</b> Buses, car hire <br>
+              <b>Sighteseeing:</b> Pune city and popular attraction in pune such as Shaniwar wada, Kelkar Museum, Parvati hill, Osho Commune Internationa, Age Khan Palace, Saras Baug, Katrak Snake Park, Sinhagadh fort 
+          </p>
+      </div>
+      </div>
+      <hr /><br>
+      <div class="box-4">
+        <h3>4.Shri Moreshwara</h3>
+        <p class="city">Morgaon,Pune</p>
+        <p class="text">
+          The temple is coveres from all sides by four Minarets and gives
+          feeling of a mosque if seen from a distance. This was done to prevent
+          attacks on the temple durig Mughal periods. There is a Nandi (Shiva's
+          bull mount ) sitting in front of this temple entrance, which is
+          unique, as Nandi is normally in front of only Shiva temples.
+        </p>
+        <p class="text">
+          Morgaon is situated on the banks od River Karha in Baramati, Pune
+          District. This area is shaped like a peacock and also goes by the name
+          Bhuseanand, which memans happiness related to property and wealth.
+        </p>
+        <p class="text">
+          It is believed that the temple in Morgain was built by Lord Brahma
+          himself, and it is considered to be Lord Ganesha's heaven. Morgaon
+          enshrines Ganapati as Mayureshwar (Moresh) or the peacock rider, who
+          slew the demon Sindhu in response to please from the Gods.
+        </p>
+        <p class="text">
+          The deity Moreshwara is in a sitting posture, facing wast with his
+          trunk turning ledt and is smeared with vermillion mixed in oil.
+          Diamonds are enbedded in its eyes and navel, and on its head is the
+          Nagaraja hood. On both sides of the murti (statue) are brass idols of
+          his wives, Siddhi and Buddhi. People believe that the original murti
+          vreated by Lord Brahma was made up of sand, iron and diamonds, and
+          stands behind the present statue.
+        </p>
+        <p class="text">
+          The main temple is located in the village center and looks like a
+          small fortress. It was built with a particulat black stone during the
+          Bahmani period, in typical Moghul style.
+        </p>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/4/1.jpg"  height="300px" width="400px" alt="">
+          <img src="img/4/2.jpg" height="300px" alt="">
+          <img src="img/4/3.jpg" height="300px"alt="">
+        </div>
+        <a href="https://goo.gl/maps/hJassB1t2wvmuuwr5" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="tranvel-info">
+          <p>
+            <b>Nearest Towns:</b>Pune (66 kms) <br>
+              <b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune <br>
+              <b>Local Transport:</b> Buses, car hire <br>
+              <b>Sighteseeing:</b> Pune city and popular attraction in pune such as Shaniwar wada, Kelkar Museum, Parvati hill, Osho Commune Internationa, Age Khan Palace, Saras Baug, Katrak Snake Park, Sinhagadh fort
+          </p>
+      </div>
+      </div>
+      <hr /><br>
+      <div class="box-5">
+        <h3>5. Shri Siddhivinayaka</h3>
+        <p class="city">Siddhatek,Pune</p>
+        <p class="text">
+          God Vishnu is supposed to have vanquished the aseras Madhu and Kaitabh
+          after propitiating Ganesha here. This is the only idol of the eight
+          Ashtavinayakas with the trunk positioned to its right.
+        </p>
+        <p class="text">
+          Siddhatek lies in Karjat Taluka (Ahmednagar District), on the banks of
+          River Bhima, 96 kms from Pune. Legend has it that Siddhivinayaka came
+          to the aid of Mahavishnu as he was engaged in a long battle with the
+          demons Madhu and Kaitabha. It is believed that the original temple was
+          built by Lord Vishnu and a new temple was built during the reign of
+          the Peshwas.
+        </p>
+        <p class="text">
+          The idol of Lord Ganesha is one metre tall, facing north with its
+          trunk turned right. This form is considered to be the most vibrant
+          form of Lord Ganesha. The idol is placed in a brass frame with brass
+          staues of Jay and Vijay on both sides. Contrary to the pictorial
+          depiction of Lord Ganesha in Hinde mythology, the belly of the
+          Siddhivinayaka idol is not big.
+        </p>
+        <p class="text">
+          Lord Ganesha is enshrined in a sitting posture, with his consorts
+          Riddhi and Siddhi sittinf on one lap. The face is very calm and
+          serene, and the Pradakshana (encircling) of this God is said to be
+          very fruitful. Devotees have to travel 5 kms to complete one
+          Pradakshana, as the idol is attaches to the hill itself.
+        </p>
+        <p class="text">
+          Shri Siddhivinayaka's temple is on a hilltop, facing north. The
+          sanctum of the temple is five metres high and three metres broad. In
+          the sanctum is a Shivapanchayatan and a small temple of Goddess
+          Shivai. Besides the Siddhivinayaka idol, the temple houses the idols
+          of Lord Vishnu and Lord Shiva. Moving towards the Siddhivinayaka
+          shrine is a place where Sage Vyasa had performed yagna (sacrifices),
+          but the place is now coveres by water.
+        </p>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/5/1.jpg"  height="300px" width="400px" alt="">
+          <img src="img/5/2.jpg" height="300px" width="400px" alt="">
+          <img src="img/5/3.jpg" height="300px" width="400px" alt="">
+        </div>
+        <a href="https://goo.gl/maps/Gp2fkbGBaEf4f5dQA" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="tranvel-info">
+          <p> 
+            <b>Nearest Towns:</b> Pune (99 kms) <br>
+              <b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune <br>
+              <b>Local Transport:</b> Buses, car hire <br>
+              <b>Sighteseeing:</b> Bhima River, Moreshwar Asthavinayaka Temple, and popular attraction in Pune <br>
+          </p>
+      </div>
+
+      </div>
+      <hr /><br>
+      <div class="box-6">
+        <h3>6.Shri Mahaganapati</h3>
+        <p class="city">Ranjangaon,Ahmednagar</p>
+        <p class="text">
+          Shiva is believed to have worshipped Ganesha before fighting the demon
+          Tripurasura here. Constructed so that the rays of the sun fall
+          directly in the idol (suring the Southward movemnet of the sun), the
+          temple bears a distinct resemblance to the architecture reminiscent of
+          the 9th and 10th Centuried
+        </p>
+        <p class="text">
+          Ranjangaon is located on the Pune-Ahmednagar Highway, 50 kms from
+          Pune. Mahaganapati is believed to have come to the aid of Shiva in
+          destroying the citadels of the demon Tripurasura.
+        </p>
+        <p class="text">
+          Facing east, the idol is in a cross-legged sitting position with its
+          trunk turned towards the left. Mahaganapati is believed to have ten
+          hands, and the idol here has ten hands and twenty trunks. The
+          Mahaganapati is portayed seated on a lotus, flanked by his consorts
+          Siddhi and Riddhi.
+        </p>
+        <p class="text">
+          The temple faces east and has a huge, beautiful gate with statues of
+          two doorkeepers, namely Jay and Vijay, at the entrance. It has been
+          constructed in such a way that the sun's rays fall directly on Lord
+          Ganesha's idol.
+        </p>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/6/1.jpg"  height="300px" width="450px" alt="">
+          <img src="img/6/2.jpg" height="300px" alt="">
+          <img src="img/6/3.jpg" height="300px"alt="">
+        </div>
+        <a href="https://goo.gl/maps/qYEU7PNyP88eXkNV6" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="tranvel-info">
+           <p>
+              <li><b>Nearest Towns:</b>Pune (56 kms) or Ahmednagar (70 kms) <br></li>
+              <li><b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune <br></li>
+              <li><b>Accommodation at Ranjangaon:</b> Hotel Yash Inn <br></li>
+              <li><b>Local Transport:</b> Buses, car hire <br></li>
+              <li><b>Sighteseeing:</b> Giant Metrewave Radio Telescope (GMRT) and popular attractions in Pune <br></li>
+          </p>
+      </div>
+      </div>
+      <hr /><br>
+      <div class="box-7">
+        <h3>7.Shri Vigneshwara</h3>
+        <p class="city">Ozar,nashik</p>
+        <p class="text">
+          The demon Vighasur, after being degeated by Lord Ganesha pleaded to
+          show mercy. Ganesha granted his plea, but on the consition that demon
+          should not go to the place where Ganesha worshipping is going on. In
+          return the demon asked a favour that his name should be taken before
+          Ganesha's name, thus the name os Ganesha became Vighnaharta or
+          Vighneshwara
+        </p>
+        <p class="text">
+          Ozar is located 85 kms from Pune, in Junnar Taluka. It is said that
+          Lord Ganesha killed a demon named Vigneshwara here, hence the name
+          Vigneshwara Vinayak. According to mythilogy, Lord. Ganesha travels on
+          the back of a mouse and so, this temple also enshrines the idol of a
+          mouse. Along with the divine idol of Lord Ganesha, the temple also has
+          multiple structures that reflect the artistic value of the shrine.
+        </p>
+        <p class="text">
+          The idol of Vigneshwara Vinayak faces rast and its trunk turns towards
+          the left. It is smeared in vermilion mixed with oil and has
+          emerald-studded eyes. The idol also features a diamond on its forehead
+          and in its navel. On either side if the idol are brass statues of
+          Riddhi and Siddhi.
+        </p>
+        <p class="text">
+          The east-facing Vigneshwara temple is surrounded on four sides by a
+          protective stone wall. At the entrance are two stone pillars for oil
+          lamps and two huge Dvarapala (door guards) carved in stone. The main
+          temple has two halls, one with a statue of Dhundiraj and the other
+          with an idol of a mouse in a running position made of white marble.
+          After passing through two pandals, there is a third pandal where Lord
+          Vigneshwara's idol is installed. Murtis Panchatatan (Sun, Shiva,
+          Vishnu, Goddess, Ganapati) are situated in four corners of the
+          sanctum. The temple, which has a golden dome and pinnacle, is
+          considered an architectural marvel.
+        </p>
+        <h5>Some Images Of Temple</h5>
+        <div class="img">
+          <img src="img/7/1.jpg"  height="300px" width="400px" alt="">
+          <img src="img/7/2.jpg" height="300px" alt="">
+          <img src="img/7/3.jpg" height="300px"alt="">
+        </div>
+        <a href="https://goo.gl/maps/TBi6L2mHkAm7Rxw28" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+        <div class="tranvel-info">
+          <li><b>Nearest Towns:</b>Bhimashankar (82 kms) or Pune (87 kms) <br></li>
+          <li><b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune <br></li>
+          <li><b>Accommodation at Bhimashankar:</b> Blue Mormon Jungle Resort (10kms from Bhimashankar), Budget and luxury accommodation familities in Pune <br></li>
+          <li><b>Local Transport:</b> Buses, car hire <br></li>
+          <li><b>Sighteseeing:</b> Girijatmajavinayaka Temple at Lenyadri, Lenyadri Caves, Bhimashankar Temple, Bhimashankar Wildlife santuary, Shivneri Fort and popular attraction in Pune <br></li>
+      </div>
+      </div>
+      <hr /><br>
+      <div class="box-8">
+        <h3>8.Shri Girijatmajavinayaka</h3>
+        <p class="city">Lenyadri,Nashik</p>
+        <p class="text">
+          It is believed that Parvati (Lord Shiva's wife) performed penance to
+          beget Ganesha at this point. This temple stands amidst a cave complex
+          of 18 caves of Buddhist origin. This temple is the 8th cave. These are
+          called Ganesh-Leni as well.
+        </p>
+        <p class="text">
+          Lenyadri is situated on the North-West bank of River Kukadi, 94 kms
+          from Pune. The Ganesha Puran calls this place Jirnapur or Lekhan
+          Parbat. This is the only temple of the Ashtavinayaka which is on a
+          mountain and is set in a Buddhist cave-temple. There are 18 caves
+          here, all of Buddhist origin, which date back to the 3rd century.
+          Girijatmajavinayaka enshrined in the eighth cave is believed to be a
+          manifestation of Lord Ganesha as an infant.
+        </p>
+        <p class="text">
+          Girijatmaja's idol, with its trunk turned to the left, faces east with
+          Shivashankar and Hanuman at its sides. The idol is not a separate and
+          distinct statue; it has been carved on a stone wall of the cave.
+          Previously, the God was overed with armour, which has since fallen. In
+          this small sanctum, devotees can perform Girijatmaja's puja on their
+          own.
+        </p>
+        <p class="text">
+          283 steps take you up to this magnificent temple, which was carved out
+          of a single stone. In front of the main mandir is a huge sabhamandap
+          (hall), which is nearly 18 metres ong and about 17 metres broad. It is
+          about 2 metres high, and has six stone pillars decorated with carving
+          of cows, elephants, etc.
+        </p>
+      </div>
+      <h5>Some Images Of Temple</h5>
+      <div class="img">
+        <img src="img/8/1.jpg"  height="300px" width="400px" alt="">
+        <img src="img/8/2.jpg" height="300px" alt="">
+        <img src="img/8/3.jpg" height="300px"alt="">
+      </div>
+      <a href="https://goo.gl/maps/mXCggkqQF2xcrui77" target="_blank" class="btn btn-danger my-2" >Google Maps</a>
+      <div class="tranvel-info">
+        <p>
+          <li><b>Nearest Towns:</b>Bhimashankar (74 kms) or Pune (94 kms) <br></li>
+          <li><b>Recommended Accommodation:</b> Budget and luxury accommodation facilities in Pune, Blue Mormon Jungle Resort (10 kms from Bhimashankar) <br></li>
+          <li><b>Local Transport:</b> Buses, car hire <br></li>
+          <li><b>Sighteseeing:</b> Girijatmajavinayaka Temple at Lenyadri, Lenyadri Caves, Bhimashankar Temple, Bhimashankar Wildlife santuary, Shivneri Fort and popular attraction in Pune <br></li>
+        </p>
+      </div><hr>
+      <div class="route">
+        <h2> Best route to cover <b class="italic"> All temple </b>in minimum days</h2>
+        <li>If you are from <b class="italic"> Mumbai region</b> <a href="https://goo.gl/maps/CxDWv1dbajcYjT3K9" target="_blank" class="btn btn-outline-danger my-2" >Clik Here</a>
+          <div class="tranvel-info"></li>
+        <li>If you are from <b class="italic"> Pune region</b> <a href="https://goo.gl/maps/mqz7oaVaYAm5rWkA6" target="_blank" class="btn btn-outline-danger my-2" >Clik Here</a>
+          <div class="tranvel-info"></li>
+        <li>If you are from <b class="italic"> Nashik region</b> <a href="https://goo.gl/maps/j8zybvYWSV6RyFr1A" target="_blank" class="btn btn-outline-danger my-2" >Clik Here</a>
+          <div class="tranvel-info"></li>
+        <li>If you are from <b class="italic"> Ahmednagar region</b> <a href="https://goo.gl/maps/MYc38MoJXqCVMXPc8" target="_blank" class="btn btn-outline-danger my-2" >Clik Here</a>
+          <div class="tranvel-info"></li>
+        <li>If you are from <b class="italic"> Solapur region</b> <a href="https://goo.gl/maps/CuYVH6cW6DAF37bM6" target="_blank" class="btn btn-outline-danger my-2" >Clik Here</a>
+          <div class="tranvel-info"></li>
+      </div>
+    </div>
+    <div class="container-dark bg-dark">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms Of Use</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Policy</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Maharashtra Darshan</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

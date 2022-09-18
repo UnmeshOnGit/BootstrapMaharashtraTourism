@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    color: brown;
+    font-size: 18px;
+}
+main{
+    margin: 80px;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+h1{
+    border: 1px solid black;
+    text-align  : center;
+    padding: 5px;
+}
+h3{
+    padding: 5px;
+    color: white;
+    background-color:orangered;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* media quiries */
+@media (max-width: 1000px) { 
+    
+
+    .card img{
+        width: 100%;
+    }
+ }

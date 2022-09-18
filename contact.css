@@ -1,0 +1,75 @@
+.notice{
+    color: rgb(235, 45, 45);
+
+}
+.container{
+    background-color: #f2f2f2;
+     border: 2px solid black;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 50px 50px 50px 100px;
+    border-radius: 10px; */
+    
+    
+
+}
+body{
+    margin: 100px;
+
+    background-image: url('image1.jpg') ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+input[type="text"]
+input[type="number"]
+input[type="date"]
+input[type="radio"]{
+    border: 2px solid red;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: blanchedalmond;
+    border:2px solid #dc3030 ;
+    border-radius: 4px;
+}
+fieldset{
+    background-color: #eae4e4;
+}
+
+.photo{
+    
+    /* clip-path: circle(50% at 50% 50%); */
+    clip-path: circle(50.0% at 50% 41%);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+p{
+    font-weight: 600;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"]{
+    
+    background-color: rgb(245, 220, 220);
+    border:1px solid rgb(184, 4, 4);
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 80%;
+    width: 30%;
+}
+input[type="submit"]:hover{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    }
+

@@ -1,0 +1,49 @@
+
+body{
+    background-color: rgb(236, 236, 236);
+    
+}
+.italic{
+    color: brown;
+}
+.text {
+    text-align: justify;
+    
+}
+.carousel {
+    border: 1px solid black;
+
+}
+p{
+    font-size:19px;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    
+    
+}
+b{
+   color: red; 
+}
+.animate{
+    margin: 5px;
+}
+h3{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 40px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+}
+.city{
+    color: rgb(255, 89, 0);
+}
+h2{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}

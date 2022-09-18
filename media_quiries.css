@@ -1,0 +1,55 @@
+@media screen and (max-width:750px) {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+    .animate{
+        margin-top: 10px;
+    }
+    .btn{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 40px;
+        font-size: 100%;
+        
+    }
+}
+
+@media screen and (max-width:355px) {
+    .card-title{
+        font-size:100%;
+    }
+    .card-text{
+        font-size: 90%;
+    }
+    .btn{
+        margin-left: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 30px;
+        font-size: 80%;
+        
+    }
+}
+@media screen and (max-width:335px) {
+    .navbar-brand{
+        font-size: 110%;
+    }
+    .btn{
+        margin-left: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 30px;
+        font-size: 60%;
+        
+    }
+}
