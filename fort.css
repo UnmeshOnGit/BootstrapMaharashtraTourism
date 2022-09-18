@@ -33,10 +33,13 @@ h3{
 }
 
 /* media quiries */
-@media (max-width: 1000px) { 
-    
-
-    .card img{
-        width: 100%;
+@media screen and (max-width:500px) {
+    .carousel-inner{
+        width: 90%;
+        height: 5%;
     }
- }
+    .image, .card img{
+        display: flex;
+        flex-direction: column;
+    }
+}
