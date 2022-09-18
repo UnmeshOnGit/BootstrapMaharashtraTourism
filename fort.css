@@ -6,9 +6,9 @@ i{
     color: brown;
     font-size: 18px;
 }
-main{
+/* main{
     margin: 80px;
-}
+} */
 .image{
     display: grid;
     grid-template-columns: repeat(3,1fr);
