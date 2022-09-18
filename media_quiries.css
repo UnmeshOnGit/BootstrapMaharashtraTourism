@@ -18,6 +18,11 @@
         font-size: 100%;
         
     }
+    .image img{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:355px) {
